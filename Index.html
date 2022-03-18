@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <header>
+        <h1> Calculadora basics</h1>
+    </header>
+    <section onload="init();" >
+        <table>
+            <tr>
+                <td class="text" coldspan="4"><span id="resultado"></span> </td>
+            </tr>
+            <tr>
+                <td><input id="reiniciar" type="button" value="restart"></td>
+            </tr>
+                <tr>
+                    <td><input  id="siete" type="button" value="7" ></td>
+                    <td><input id="ocho" type="button" value="8" ></td>
+                    <td><input id="nueve" type="button" value="9" ></td>
+                    <td><input id="suma" type="button" value="+" ></td>
+                </tr>
+                <tr>
+                    <td><input id="cuatro" type="button" value="4"></td>
+                    <td><input id="cinco" type="button" value="5"></td>
+                    <td><input id="seis" type="button" value="6"></td>
+                    <td><input id="resta" type="button" value="-"></td>
+                </tr>
+                <tr>
+                    <td><input id="uno" type="button" value="1"></td>
+                    <td><input id="dos" type="button" value="2"></td>
+                    <td><input id="tres" type="button" value="3"></td>
+                    <td><input id="division" type="button" value="/"></td>
+                </tr>
+                <tr>
+                    <td><input id="cero" type="button" value="0"></td>
+                    <td><input id="punto" type="button" value="."></td>
+                    <td><input id="igual" type="button" value="="></td>
+                    <td><input id="multiplicacion" type="button" value="*"></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    
+
+    <script src="./calc.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+
+header {
+    text-align: center; 
+}
+.text {
+    height: 20px;
+}
+table , tr, td {
+    border: 1px solid black;
+    display:flex; 
+    width: 174px;
+    justify-content: center;
+}
+table {
+    width: 100%;
+    border: 1px solid transparent;  
+}
+
+
+
