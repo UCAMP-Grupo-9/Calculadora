@@ -53,7 +53,7 @@ cero.onclick = function(e){
     resultado.textContent = resultado.textContent  + "0";
 }
 reiniciar.onclick = function(e){
-    restart;
+    restart();
 }
 
 suma.onclick = function(e){
